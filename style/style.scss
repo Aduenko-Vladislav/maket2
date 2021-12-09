@@ -145,7 +145,6 @@ body.lock{
             background-color: rgba(0, 0, 0, 0.9);
             transition: all 0.3s linear;
             overflow: auto;           
-            // background-image:url(../img/);
             &::before{
                 content: '';
                 position: fixed;
@@ -213,9 +212,9 @@ body.lock{
             width: 30px;
             height: 18px;
             cursor: pointer;
-            position: fixed;
-            top: 24px;
-            right: 20px;
+            position: relative;
+            top: 0px;
+            right: 0px;
             z-index: 3;
         }
     }
@@ -921,7 +920,8 @@ body.lock{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    max-height: 500px
+    max-height: 500px;
+    height: 100%;
 }
 .carousel__info{
     background-color: $swiperbgColor;

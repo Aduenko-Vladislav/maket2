@@ -1348,6 +1348,7 @@ body.lock {
   background-position: center;
   background-size: cover;
   max-height: 500px;
+  height: 100%;
 }
 
 .carousel__info {
