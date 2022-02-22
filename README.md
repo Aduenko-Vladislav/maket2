@@ -1,1 +1,1 @@
-https://luckshery.github.io/task2/
+https://luckshery.github.io/maket2/
